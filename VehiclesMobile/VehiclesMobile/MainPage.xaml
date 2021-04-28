@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VehiclesMobile.MainPage">
+
+    <StackLayout>
+        <Label x:Name="CarMakeLabel" HeightRequest="200" TextColor="Red" VerticalOptions="Center" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"/>
+        <Label x:Name="CarSpeedLabel" Text="0" HorizontalOptions="Center"/>
+        <Button x:Name="DriveFasterButton" Text="Drive Faster" VerticalOptions="EndAndExpand" Clicked="DriveFasterButton_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
